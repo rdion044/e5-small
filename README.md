@@ -5383,6 +5383,9 @@ license: mit
 [Text Embeddings by Weakly-Supervised Contrastive Pre-training](https://arxiv.org/pdf/2212.03533.pdf).
 Liang Wang, Nan Yang, Xiaolong Huang, Binxing Jiao, Linjun Yang, Daxin Jiang, Rangan Majumder, Furu Wei, arXiv 2022
 
+[Multilingual E5 Text Embeddings: A Technical Report](https://arxiv.org/abs/2402.05672).
+Liang Wang, Nan Yang, Xiaolong Huang, Linjun Yang, Rangan Majumder, Furu Wei, arXiv 2024
+
 This model has 24 layers and the embedding size is 1024.
 
 ## Usage
