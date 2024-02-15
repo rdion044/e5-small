@@ -5382,10 +5382,7 @@ license: mit
 
 ## Multilingual-E5-large-instruct
 
-[Text Embeddings by Weakly-Supervised Contrastive Pre-training](https://arxiv.org/pdf/2212.03533.pdf).
-Liang Wang, Nan Yang, Xiaolong Huang, Binxing Jiao, Linjun Yang, Daxin Jiang, Rangan Majumder, Furu Wei, arXiv 2022
-
-[Multilingual E5 Text Embeddings: A Technical Report](https://arxiv.org/abs/2402.05672).
+[Multilingual E5 Text Embeddings: A Technical Report](https://arxiv.org/pdf/2402.05672).
 Liang Wang, Nan Yang, Xiaolong Huang, Linjun Yang, Rangan Majumder, Furu Wei, arXiv 2024
 
 This model has 24 layers and the embedding size is 1024.
@@ -5518,11 +5515,11 @@ so this should not be an issue.
 If you find our paper or models helpful, please consider cite as follows:
 
 ```
-@article{wang2022text,
-  title={Text Embeddings by Weakly-Supervised Contrastive Pre-training},
-  author={Wang, Liang and Yang, Nan and Huang, Xiaolong and Jiao, Binxing and Yang, Linjun and Jiang, Daxin and Majumder, Rangan and Wei, Furu},
-  journal={arXiv preprint arXiv:2212.03533},
-  year={2022}
+@article{wang2024multilingual,
+  title={Multilingual E5 Text Embeddings: A Technical Report},
+  author={Wang, Liang and Yang, Nan and Huang, Xiaolong and Yang, Linjun and Majumder, Rangan and Wei, Furu},
+  journal={arXiv preprint arXiv:2402.05672},
+  year={2024}
 }
 ```
 
