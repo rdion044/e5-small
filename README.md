@@ -5466,6 +5466,16 @@ print(scores.tolist())
 # [[91.92853546142578, 67.5802993774414], [70.38143157958984, 92.13307189941406]]
 ```
 
+### Infinity
+
+Usage with [Infinity](https://github.com/michaelfeil/infinity):
+
+```bash
+docker run --gpus all -v $PWD/data:/app/.cache -e HF_TOKEN=$HF_TOKEN -p "7997":"7997" \
+michaelf34/infinity:0.0.68 \
+v2 --model-id intfloat/multilingual-e5-large-instruct --revision "main" --dtype float16 --batch-size 32 -engine torch --port 7997
+```
+
 ## Supported Languages
 
 This model is initialized from [xlm-roberta-large](https://huggingface.co/xlm-roberta-large)
