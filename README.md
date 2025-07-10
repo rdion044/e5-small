@@ -5440,6 +5440,7 @@ print(scores.tolist())
 ### Sentence Transformers
 
 ```python
+!{sys.executable} -m pip install sentence-transformers
 from sentence_transformers import SentenceTransformer
 
 def get_detailed_instruct(task_description: str, query: str) -> str:
